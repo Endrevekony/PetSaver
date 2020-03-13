@@ -1,0 +1,203 @@
+.headerGradient {
+  background: linear-gradient(135deg, #000000, #FAB148);
+  background-color: #184e8e;
+  padding-bottom: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@media (min-width:768px) {
+  .headerGradient {
+    padding-bottom: 120px;
+  }
+}
+
+.headerGradient .navbar {
+  background: transparent;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+@media (min-width:768px) {
+  .headerGradient .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+
+.headerGradient .navbar .navbar-collapse {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  margin-top: .5rem;
+}
+
+@media (min-width:768px) {
+  .headerGradient .navbar .navbar-collapse {
+    border-color: transparent;
+    margin: 0;
+  }
+}
+
+.headerGradient .navbar .navbar-collapse span .login {
+  color: #d9d9d9;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.headerGradient .navbar .navbar-collapse span .login:hover {
+  color: #fff;
+}
+
+.headerGradient .navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.3);
+}
+
+.headerGradient .navbar .navbar-toggler:hover, .headerGradient .navbar-toggler:focus {
+  background: none;
+}
+
+.headerGradient .navbar .navbarNavigation a.active, .headerGradient .navbar .navbarNavigation > .show .dropdownItem {
+  background: none;
+  box-shadow: none;
+}
+
+@media (min-width: 768px) {
+  .headerGradient .navbarNavigation .navLink {
+    padding-left: .7rem;
+    padding-right: .7rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .headerGradient .navbarNavigation .navLink {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+  }
+}
+
+.headerGradient .navbar .navbarNavigation > li > .dropdownMenu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.headerGradient .navbar .dropdownMenu .dropdownItem:focus, .headerGradient .navbar .dropdownMenu .dropdownItem {
+  line-height: 2;
+  color: #37434d;
+}
+
+.headerGradient .navbar .dropdownMenu .dropdownItem:focus, .headerGradient .navbar .dropdownMenu .dropdownItem:hover {
+  background: #ebeff1;
+}
+
+.headerGradient .actionButton, .headerGradient .actionButton:not(.disabled):active {
+  border: 1px solid rgba(255,255,255,0.7);
+  border-radius: 40px;
+  color: #ebeff1;
+  box-shadow: none;
+  text-shadow: none;
+  padding: .3rem .8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.headerGradient .actionButton:hover {
+  color: #fff;
+}
+
+.headerGradient .navbar .form-inline label {
+  color: #d9d9d9;
+}
+
+.headerGradient .hero {
+  margin-top: 20px;
+  text-align: center;
+}
+
+@media (min-width:768px) {
+  .headerGradient .hero {
+    margin-top: 60px;
+    text-align: left;
+  }
+}
+
+.headerGradient .hero h1 {
+  color: #fff;
+  font-size: 45px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.headerGradient .hero h3 {
+  color: #fff;
+  font-size: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+@media (min-width:992px) {
+  .headerGradient .hero h1 {
+    margin-top: 190px;
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+}
+
+.headerGradient .hero p {
+  color: rgba(255,255,255,0.8);
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.headerGradient .phoneHolder {
+  text-align: right;
+}
+
+.headerGradient div.iphoneMockup {
+  position: relative;
+  max-width: 300px;
+  margin: 20px;
+  display: inline-block;
+}
+
+.headerGradient .iphoneMockup img.device {
+  width: 100%;
+  height: auto;
+}
+
+.headerGradient .iphoneMockup .screen {
+  position: absolute;
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  background: url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.headerGradient .iphoneMockup .screen:before {
+  content: '';
+  background-color: #fff;
+  position: absolute;
+  width: 70%;
+  height: 140%;
+  top: -12%;
+  right: -60%;
+  transform: rotate(-19deg);
+  opacity: 0.2;
+}
+

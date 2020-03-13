@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>PetSaver</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/HeaderGradient.css">
+    <link rel="stylesheet" href="assets/css/Footer.css">
+    <link rel="stylesheet" href="assets/css/Timeline.css">
+    <link rel="stylesheet" href="assets/css/LoginBox.css"
+</head>
+
+<body>
+        <div class="headerGradient">
+            <nav class="navbar navbar-dark navbar-expand-md">
+                <div class="container"><img src = "assets/img/LogoSmall.png">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#navcol-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navcol-1">
+                        <ul class="nav navbarNavigation ml-auto"></ul>
+                        <span class="navbar-text"><a href="#!" class="login" onclick="showLoginForm()">Log In</a></span>
+                            <a class="btn btn-light actionButton" role="button" onclick="showRegisterForm()">Sign Up</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="container hero">
+                <div class="row">
+                    <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                        <h1>The new way to find your Darlings</h1>
+                        <h3>Find your pet faster with the help of our products </h3>
+                        <button class="btn btn-light btn-lg actionButton" type="button" onclick="showLoginForm()">Let's get Started</button>
+                    </div>
+                    <div class="col-md-5 col-lg-5 offset-lg-1 offset-xl-0 d-none d-lg-block phoneHolder">
+                        <div class="iphoneMockup"><img src="assets/img/iphone.svg" class="device">
+                            <div class="screen"></div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <form id="loginForm">
+            <div class="d-flex flex-column justify-content-center loginBox" id="loginBox">
+                    <div class="loginBoxHeader">
+                        <h2 id="loginHead">Register</h2>
+                    </div>
+                    <div class="d-flex flex-row align-items-center loginBoxSeparator-container">
+                        <div class="loginBoxSeparator"></div>
+                    </div>
+                    <div class="emailLogin">
+                        <input placeholder="Username" id="name" class="form-control">
+                        <input type="email" placeholder="Email" id="email" class="form-control">
+                        <input type="password" placeholder="Password" id="password" class="form-control">
+                    </div>
+                    <div class="submitRow">
+                        <button class="btn btn-primary btn-block box-shadow" type="submit" id="loginButton">Register</button>
+                        <p id ="errorMessage"></p>
+                    <div id="loginBoxFooter">
+                            <p  id="loginText" >Already have an account?</p><a href="#!" onclick="switchForm()" id="loginLink">Log In!</a>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+    <section id="sectionTimeline">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="sectionHeading">What we offer to your puppy? </h1>
+                    <h3 class="sectionSubHeading textMuted">Everything you need, no less, no more</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-group timeline">
+                        <li class="listGroupItem">
+                            <div class="timelineImage">
+                                <img class="rounded-circle img-fluid" src="assets/img/1.jpg">
+                            </div>
+                            <div class="timelinePanel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Our Humble Beginnings </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="textMuted">Random text</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listGroupItem timelineInverted">
+                            <div class="timelineImage">
+                                <img class="rounded-circle img-fluid" src="assets/img/2.jpg">
+                            </div>
+                            <div class="timelinePanel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">An Agency is Born </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="textMuted">Random Text</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listGroupItem">
+                            <div class="timelineImage">
+                                <img class="rounded-circle img-fluid" src="assets/img/3.jpg">
+                            </div>
+                            <div class="timelinePanel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading">Transition to Full Service </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="textMuted">valami</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listGroupItem timelineInverted">
+                            <div class="timelineImage">
+                                <img class="rounded-circle img-fluid" src="assets/img/4.jpg">
+                            </div>
+                            <div class="timelinePanel">
+                                <div class="timeline-heading">
+                                    <h4>July 2014 </h4>
+                                    <h4 class="subheading">Phase Two Expansion </h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="textMuted">Lkurva</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="listGroupItem timelineInverted">
+                            <div class="timelineImage">
+                                <h4>Be Part Of Our Story!</h4>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footerNavigation">
+                <h3><img class="img-fluid" src="assets/img/LogoBig.png"></img></h3>
+            </div>
+            <div class="col-sm-6 col-md-4 footerContacts">
+                <div class="socialLinks">
+                    <i class="fa fa-map-marker"></i>
+                    <p><span class="newLineSpan">Beogradski put 16</span> Subotica, Serbia</p>
+                </div>
+                <div class="socialLinks">
+                    <i class="fa fa-phone"></i>
+                    <p class="footer-center-info email text-left"> +381 61 219 48 47</p>
+                </div>
+                <div class="socialLinks">
+                    <i class="fa fa-envelope-open-o"></i>
+                    <p>PetSaver@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col-md-4 footerFollowUs">
+                <h3>Follow us on:</h3>
+                <div class="socialLinks">
+                    <a href=""><i class="fa fa-facebook"></i></a>
+                    <a href="https://github.com/Endrevekony/PetSaver"><i class="fa fa-github"></i></a>
+                </div>
+                <p class="companyName">PetSaver © 2020 </p>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/register.js"></script>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        var firebaseConfig = {
+            apiKey: "AIzaSyBjY7idpyxAknUhdxOBPWMLDrgjeN5rHRU",
+            authDomain: "petsaver-2ce9a.firebaseapp.com",
+            databaseURL: "https://petsaver-2ce9a.firebaseio.com",
+            projectId: "petsaver-2ce9a",
+            storageBucket: "petsaver-2ce9a.appspot.com",
+            messagingSenderId: "415326647950",
+            appId: "1:415326647950:web:d95f2f9bfc0eab3a7c3bdf",
+            measurementId: "G-JKTQQSBXJZ"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+          const auth = firebase.auth();
+      </script>
+
+</body>
+</html>
