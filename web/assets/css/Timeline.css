@@ -82,8 +82,8 @@ section#sectionTimeline h3.sectionSubHeading {
 .timeline > li .timelineImage {
   left: 0;
   margin-left: 0;
-  width: 85px;
-  height: 85px;
+  width: 100px;
+  height: 100px;
   position: absolute;
   z-index: 100;
   background-color: #FAB148;
@@ -126,10 +126,6 @@ section#sectionTimeline h3.sectionSubHeading {
 .timeline .timeline-heading h4 {
   margin-top: 0;
   color: inherit;
-}
-
-.timeline .timeline-heading h4.subheading {
-  text-transform: none;
 }
 
 .timeline .timelineBody> p, .timeline .timelineBody> ul {
