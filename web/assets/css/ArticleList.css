@@ -1,13 +1,13 @@
-.article-list {
+.articleList {
   color: #313437;
   background-color: #fff;
 }
 
-.article-list p {
+.articleList p {
   color: #7d8285;
 }
 
-.article-list h2 {
+.articleList h2 {
   font-weight: bold;
   margin-bottom: 40px;
   padding-top: 40px;
@@ -15,49 +15,50 @@
 }
 
 @media (max-width:767px) {
-  .article-list h2 {
+  .articleList h2 {
     margin-bottom: 25px;
     padding-top: 25px;
     font-size: 24px;
   }
 }
 
-.article-list .intro {
+.articleList .intro {
+  padding-top: 25px;
   font-size: 16px;
   max-width: 500px;
   margin: 0 auto;
 }
 
-.article-list .intro p {
+.articleList .intro p {
   margin-bottom: 0;
 }
 
-.article-list .articles {
+.articleList .articles {
   padding-bottom: 40px;
 }
 
-.article-list .item {
+.articleList .item {
   padding-top: 50px;
   min-height: 425px;
   text-align: center;
 }
 
-.article-list .item .name {
+.articleList .item .name {
   font-weight: bold;
   font-size: 16px;
   margin-top: 20px;
   color: inherit;
 }
 
-.article-list .item .description {
+.articleList .item .description {
   font-size: 14px;
   margin-top: 15px;
   margin-bottom: 0;
 }
 
-.article-list .item .action {
-  font-size: 24px;
-  width: 24px;
+.articleList .item .action {
+  font-size: 45px;
+  width: 30px;
   margin: 22px auto 0;
   line-height: 1;
   display: block;
@@ -67,7 +68,7 @@
   text-decoration: none;
 }
 
-.article-list .item .action:hover {
+.articleList .item .action:hover {
   opacity: 1;
 }
 
