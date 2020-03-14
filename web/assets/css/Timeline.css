@@ -1,5 +1,7 @@
 #sectionTimeline .textMuted {
   color: #777;
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 section#sectionTimeline { 
