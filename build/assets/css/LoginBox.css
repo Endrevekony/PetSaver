@@ -1,0 +1,105 @@
+#loginBox {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 25px !important;
+  border-radius: 12px;
+  overflow: hidden;
+  background: whitesmoke;
+  -webkit-box-shadow: 0px 6px 30px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 6px 30px rgba(0,0,0,0.2);
+  box-shadow: 0px 6px 30px rgba(0,0,0,0.2);
+  color: black;
+}
+
+#loginForm {
+  display: none;
+}
+
+.loginBoxHeader {
+  background-color: rgb(255,255,255);
+  text-align: center;
+  padding-top: 18px;
+  padding-right: 25px;
+  padding-bottom: 15px;
+  padding-left: 25px;
+}
+
+.loginBoxHeader {
+  border: none;
+  border-bottom: 1px solid rgb(224,224,224);
+}
+
+.loginBoxContent {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  padding-top: 20px;
+}
+
+.loginBoxContent i {
+  padding: 11px 0px 11px 15px;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+}
+
+.box-shadow {
+  box-shadow: 0 2px 2px 0 rgba(41,48,59,.24), 0 0 2px 0 rgba(41,48,59,.12);
+  border-radius: 5px;
+}
+
+.loginBox-seperator {
+  flex: 1 0 auto;
+  min-width: 1px;
+  border-top: 1px solid #dedfe0;
+  height: 1px;
+}
+
+
+.form-control {
+  box-shadow: none;
+  font-size: 16px;
+  padding: 10px 12px;
+  margin-top: 10px;
+  transition: border-color .08s ease-in-out,box-shadow .08s ease-in-out;
+}
+
+.emailLogin {
+  padding: 10px 20px;
+}
+
+#loginButton {
+  margin-top: 0px;
+  height: 46px;
+  background-color: rgb(26,138,111);
+  border: 0;
+  color: rgb(255,255,255);
+  margin-bottom: 8px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.submitRow {
+  margin-bottom:8px;
+  padding-top:0px;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+
+#errorMessage{
+  color: #ff0000;
+}
+
+#loginBoxFooter {
+  padding:10px 20px;
+  padding-bottom:23px;
+  padding-top:18px;
+  text-align: center;
+  border-top: 1px solid #dedfe0;
+}
+
+#loginBoxFooter p {
+  color: #8b8b8b;
+}
+

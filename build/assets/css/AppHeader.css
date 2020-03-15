@@ -1,0 +1,70 @@
+.customHeader {
+  background: #292c2f;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 0;
+}
+
+
+.customHeader ul.nav.navbar-nav.links li a {
+  font: 30px;
+  opacity: 0.9;
+  text-decoration: none;
+  color: #fff;
+  background: #292c2f;
+  border: 0;
+}
+
+.customHeader ul.nav.navbar-nav li a:hover {
+  opacity: 1;
+}
+
+
+.customHeader li.dropdown, .customHeader li.dropdown.open {
+  background: #fff;
+}
+
+.customHeader li.dropdown .dropdownToggle {
+  border-radius: 5px;
+  color: #fff;
+  padding: 10px 14px;
+  background: #3a3c3e;
+  opacity: 0.9;
+  border: 0;
+  margin: 0;
+}
+
+.customHeader li.dropdown .dropdownToggle:focus, .customHeader li.dropdown .dropdownToggle:hover, .customHeader li.dropdown .dropdownToggle:active {
+  background: #3a3c3e;
+  color: #fff;
+}
+
+img.dropdown-image {
+  border-radius: 50%;
+  width: 32px;
+  margin-left: 10px;
+}
+
+.customHeader .dropdown ul {
+  background-color: #3a3c3e;
+  border: 0;
+  min-width: 140px;
+}
+
+.customHeader .dropdown ul li {
+  background-color: #3a3c3e;
+  padding: 7px;
+  text-align: center;
+}
+
+.customHeader .dropdown ul li a {
+  background: #3a3c3e;
+  border-radius: 2px;
+  padding: 0;
+}
+
+.customHeader .dropdown ul li a:active, .customHeader .dropdown ul li a:focus, .customHeader .dropdown ul li a:hover {
+  background: #3a3c3e;
+}
+
